@@ -133,8 +133,8 @@ li {
 }
 .cn {
   font-size: 20px;
-  line-height: 0.5;
-  text-decoration: overline;
+  line-height: 1;
+  text-decoration: none;
 }
 .ten {
   font-family: "Times New Roman", Times, serif;
