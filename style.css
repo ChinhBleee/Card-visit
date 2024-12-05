@@ -143,3 +143,18 @@ li {
   text-shadow: 1px 1px 5px #ccc, 2px 2px 5px #bbb, 3px 3px 5px #aaa,
     4px 4px 5px #999, 5px 5px 5px #888;
 }
+.chinh {
+  color: white;
+  text-decoration: none;
+
+  background-color: rgb(35, 100, 219);
+  border-radius: 50%;
+  border: 10px solid rgb(35, 100, 219);
+  margin-left: 13px;
+  display: inline-flex;
+  text-align: center;
+}
+.chinh:hover {
+  color: red;
+  font-size: 110%;
+}
