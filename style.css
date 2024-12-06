@@ -108,7 +108,7 @@ li {
 }
 .imglh:hover {
   transform: scale(1.1);
-  transition: 0, 3s;
+  transition: ease 0.2s;
 }
 .link:hover {
   color: rgb(159, 36, 36);
@@ -116,7 +116,7 @@ li {
 .link {
   text-decoration: none;
   color: rgb(0, 157, 255);
-  font-size: 20px;
+  font-size: 16px;
 }
 .linkgps {
   text-decoration: none;
@@ -146,15 +146,19 @@ li {
 .chinh {
   color: white;
   text-decoration: none;
-
   background-color: rgb(35, 100, 219);
   border-radius: 50%;
   border: 10px solid rgb(35, 100, 219);
-  margin-left: 13px;
+  /* margin-left: 13px; */
   display: inline-flex;
   text-align: center;
 }
 .chinh:hover {
   color: red;
-  font-size: 110%;
+  transform: scale(1.1);
+  transition: ease 0.2s;
+}
+
+.canGiua {
+  text-align: center;
 }
